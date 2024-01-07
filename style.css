@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
+
+body{
+    background-color: #454545 ;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  height: 3cm;
+  margin-top: -1em;
+  margin-left: -1em;
+  margin-right: -0.5em;  
+  flex-wrap: nowrap;
+}
+.NavOptions{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 1.65%;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #808080;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white; }
+
+  #bsingh_logo{
+    shape-image-threshold: inherit;
+    border-radius: 50%; 
+    background: linear-gradient(red,blue,green);
+    padding: 1.8px;
+    object-fit: cover;
+    width: 90px; /* Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+   margin-top: -0.8em;
+  }
+  marquee{
+    font-size: 200%;
+    color: red;
+    background-color: #808080;
+    font-weight: 800;
+    width: 100%;
+    margin-left:-0.3em; 
+    padding-right: 1.15%;
+  }
+    .SlideshowContainer {
+      width: 70vw; /* Set the width to 70% of the viewport width */
+      height: 70vh; /* Set the height to 100% of the viewport height */
+      overflow: hidden; /* Hide overflow content beyond the set width */
+      position: relative;margin-top: -0.3em;margin-left: -0.5em;
+  }
+  .mySlides{
+    display: none;
+    margin-left: 0cm;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover , .next:hover{
+    background-color: red;
+  }
+  .textforslide{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Rockwell', serif;
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    color: red;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot-container {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ 
+
+

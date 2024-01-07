@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Crimson+Text:wght@600&family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
+ 
+  .SlideshowContainerText {
+    position: absolute;
+    top: -0;
+    margin-top: 9.6%;
+    right: 0%; 
+    width: 30%;
+    height: 100%;
+    background-color:#333; 
+    color: white;
+    box-sizing: border-box;
+    height: 70vh;
+   
+  }
+  
+
+  
+#SliderTopic{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: xx-large;
+}
+#SLiderDetail{
+    font-family: 'Crimson Text', serif;
+    font-size: larger;
+}
+#selling{
+    margin-top: 0.3cm;
+    margin-left: 0.3cm;
+    margin-left: 0cm;
+    height: 10cm;
+    width: 10cm;
+  }
+.forprices1{
+    margin-left: 0em;
+    width: fit-content;
+    margin-top: -2%;
+    
+  }

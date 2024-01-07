@@ -1,5 +1,5 @@
 body{
-    background-color: #454545 ;
+    background-color: #FAFAD2;
 }
 h1{
     color: red;
@@ -13,4 +13,7 @@ h1{
 }
 #ObjectName{
     
+}
+.PriceContainer{
+    background-color: #DC143C;
 }

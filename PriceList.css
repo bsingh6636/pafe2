@@ -5,20 +5,25 @@ h1{
     color: red;
 }
 #Priceobject{
-    height: 30vh;
-    width: 20vw;
+    height: 25vh;
+    width: 18vw;
 }
 #ObjectName{
-
+    margin-top:-6%;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    font-variant-caps: petite-caps;
+   
 }
 #ObjectName{
-    
+   margin-top: -5%;
 }
 .PriceContainer{
-    
+    margin-right: 2%;  
 }
 .PriceList{
-   
     background-color: #333;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }

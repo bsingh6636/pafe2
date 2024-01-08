@@ -15,5 +15,10 @@ h1{
     
 }
 .PriceContainer{
-    background-color: #DC143C;
+    
+}
+.PriceList{
+   
+    background-color: #333;
+    display: grid;
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: #FAFAD2;
+    background-color: #F0F3F4 ;
 }
 h1{
     color: red;
@@ -23,7 +23,7 @@ h1{
     margin-right: 2%;  
 }
 .PriceList{
-    background-color: #333;
+    
     display: flex;
     flex-wrap: wrap;
 }

@@ -19,8 +19,9 @@
   
 #SliderTopic{
     font-family: 'Bungee Spice', sans-serif;
-    font-size: xx-large;
+    font-size: 190%;
 }
+
 #SLiderDetail{
     font-family: 'Crimson Text', serif;
     font-size: larger;
@@ -38,3 +39,4 @@
     margin-top: -2%;
     
   }
+

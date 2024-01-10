@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Salsa&display=swap');
 body{
     background-color: #F0F3F4 ;
 }
@@ -16,9 +17,7 @@ h1{
     font-variant-caps: petite-caps;
    
 }
-#ObjectName{
-   margin-top: -5%;
-}
+
 .PriceContainer{
     margin-right: 2%;  
 }
@@ -26,4 +25,20 @@ h1{
     
     display: flex;
     flex-wrap: wrap;
+}
+@media only screen and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)
+{
+#ObjectName{
+font-size: 75%;
+font-weight: bolder;
+font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Salsa', cursive;   
+}
+.PriceContaine{
+    margin-right: 10px;
+}
+#Priceobject{
+    height: 60px;
+    width: 60px;
+}
 }

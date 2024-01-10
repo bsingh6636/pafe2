@@ -12,9 +12,8 @@
     color: white;
     box-sizing: border-box;
     height: 70vh;
-   
   }
-  
+
 
   
 #SliderTopic{
@@ -38,5 +37,16 @@
     width: fit-content;
     margin-top: -2%;
     
+  }
+  @media only screen and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)
+  {
+    .SlideshowContainerText{
+      margin-top: 39%;
+      height:45vh ;
+    }
+    #SliderTopic{
+      font-family: 'Bungee Spice', sans-serif;
+      font-size: 90%;
+  }
   }
 

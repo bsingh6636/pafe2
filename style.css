@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 body{
-    background-color: #454545 ;
+    background-color: #454545;
 }
 .topnav {
   background-color: #333;
@@ -141,6 +141,29 @@ body{
     to {opacity: 1}
   }
  
+  #platform{
+    font-family:cursive;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: -0%;
+  }
+
+  #wtwatcch{
+    font-family: 'Zen Dots', sans-serif;
+    color: red;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  /*Container for youtube video and comment*/
+  .ytvideos{
+    
+  }
+
+  #youtube{
+       height: 52vh;
+       width: 25%;
+  }
 
 
 

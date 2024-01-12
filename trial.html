@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+       .scroll-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      display: flex;
+    }
+
+    .scroll-content {
+      display: flex;
+      transition: transform 0.3s ease;
+    }
+
+    .scroll-item {
+      flex: 0 0 auto;
+      width: 200px;
+      height: 150px;
+      margin-right: 10px;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="scroll-container" id="scrollContainer">
+        <div class="scroll-content" id="scrollContent">
+  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/NeXRnUPOdMk" title="Ed Sheeran - Shape Of You (Lyrics) | Lukas Graham, Imagine Dragons,... Mix Lyrics 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/ZsME1tTcdMg" title="Aaron Smith - Dancin (KRONO Remix) - Lyrics  | Music Hight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/f1tDFtMjwAE" title="twenty one pilots - Stressed Out ( Lyrics )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	    
+        <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/NeXRnUPOdMk" title="Ed Sheeran - Shape Of You (Lyrics) | Lukas Graham, Imagine Dragons,... Mix Lyrics 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/ZsME1tTcdMg" title="Aaron Smith - Dancin (KRONO Remix) - Lyrics  | Music Hight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/f1tDFtMjwAE" title="twenty one pilots - Stressed Out ( Lyrics )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	    <div class="scroll-item">Item 3</div>
+        <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe src="https://www.youtube.com/embed/3SxE7So2ueU" title="Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/NeXRnUPOdMk" title="Ed Sheeran - Shape Of You (Lyrics) | Lukas Graham, Imagine Dragons,... Mix Lyrics 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/ZsME1tTcdMg" title="Aaron Smith - Dancin (KRONO Remix) - Lyrics  | Music Hight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	  <div class="scroll-item"><iframe  src="https://www.youtube.com/embed/f1tDFtMjwAE" title="twenty one pilots - Stressed Out ( Lyrics )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	    <div class="scroll-item">Item 3</div>
+
+
+  <!-- Add more items as needed -->
+</div>
+</div>
+<script>
+    const container = document.getElementById('scrollContainer');
+    const content = document.getElementById('scrollContent');
+  
+    let isDragging = false;
+    let startPosition = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+  
+    container.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startPosition = e.clientX - currentTranslate;
+    });
+  
+    container.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      startPosition = e.touches[0].clientX - currentTranslate;
+    });
+  
+    container.addEventListener('mouseup', () => {
+      isDragging = false;
+      checkBoundaries();
+    });
+  
+    container.addEventListener('touchend', () => {
+      isDragging = false;
+      checkBoundaries();
+    });
+  
+    container.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        updateTranslate(e.clientX);
+      }
+    });
+  
+    container.addEventListener('touchmove', (e) => {
+      if (isDragging) {
+        updateTranslate(e.touches[0].clientX);
+      }
+    });
+  
+    function updateTranslate(clientX) {
+      currentTranslate = clientX - startPosition;
+      setTransform();
+    }
+  
+    function setTransform() {
+      content.style.transform = `translateX(${currentTranslate}px)`;
+    }
+  
+    function checkBoundaries() {
+      const itemWidth = document.querySelector('.scroll-item').offsetWidth;
+      const numberOfItems = content.children.length;
+      const containerWidth = container.offsetWidth;
+  
+      const maxTranslate = -(itemWidth * numberOfItems - containerWidth);
+      
+      if (currentTranslate > 0) {
+        currentTranslate = 0;
+      } else if (currentTranslate < maxTranslate) {
+        currentTranslate = maxTranslate;
+      }
+  
+      setTransform();
+    }
+  </script>
+
+</body>
+</html>

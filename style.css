@@ -140,6 +140,11 @@ body{
     from {opacity: .4}
     to {opacity: 1}
   }
+
+   .wtwatch{
+    
+    display: flex;
+   }
  
   #platform{
     font-family:cursive;
@@ -154,15 +159,22 @@ body{
     font-size: large;
     font-style: italic;
     font-weight: bolder;
+    
   }
+
   /*Container for youtube video and comment*/
   .ytvideos{
-    
+  
+   width: 60%; /* Adjust width as needed */
+  height: 70%; /* Adjust height as needed */
+  margin-right: 10px; /* Adjust spacing between elements */
+  background-color: #ff6666; /* Light red background */
+  margin-right: 10%;
   }
 
   #youtube{
        height: 52vh;
-       width: 25%;
+       width: 150%;
   }
 
 

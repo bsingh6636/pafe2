@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Salsa&display=swap');
 body{
-    background-color: #F0F3F4 ;
+    background-color: #F0F3F4 !important;
 }
 h1{
     color: red;

@@ -32,12 +32,18 @@ body{
   margin-top: 1.65%;
   
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
+/* .topnav a:not(#bsingh_logo):hover {
   background-color: #808080;
   color: black;
+} */
+.topnav a:not(.logolink):hover,
+.topnav a:not(.logolink):focus {
+    background-color: #808080;
+    color: black;
 }
+
+
+
 .topnav a.active {
   background-color: #04AA6D;
   color: white; }

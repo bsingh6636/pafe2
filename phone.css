@@ -6,7 +6,7 @@
   body{
       background-color: #f333 ;
   }
-  .NavOptions{
+  /* .NavOptions{
     display: flex;
     flex-wrap: wrap;
    } 
@@ -18,8 +18,8 @@
     margin-left: -1em;
     margin-right: -0.5em;  
     
-  }
-  .topnav a {
+  } */
+  /* .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -36,7 +36,7 @@
   }
   .topnav a.active {
     background-color: #04AA6D;
-    color: white; }
+    color: white; } */
 
     #bsingh_logo{
       shape-image-threshold: inherit;

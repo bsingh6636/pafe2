@@ -16,7 +16,7 @@
     
 </head>
 <body>
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <!-- <a href="https://www.ottnp.xyz/"><img id="bsingh_logo" src="image/logo_bsingh.JPG" ></a> -->
         <a class="logolink" href="https://www.ottnp.xyz/"><img id="bsingh_logo" src="image/logo_bsingh.JPG"></a>
         <div class="NavOptions"> <a class="active" href="https://www.ottnp.xyz/">Home</a>
@@ -25,7 +25,12 @@
             <a href="html/Contactus2.html">Contact us</a>
             <a href="#about">About us</a>
             <a href="https://www.facebook.com/onlinepurchasenepal6636/reviews">Review</a>
+            <a href="https://www.facebook.com/onlinepurchasenepal6636/reviews">Review</a>
+            
         </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
     <marquee behavior="scroll" direction="right" scrollamount="20">
         This page is on development stage 😜
@@ -146,5 +151,14 @@
 </div>
 
   <script src="slide.js"></script>
+  <script>  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }</script>
 </body>
 </html>

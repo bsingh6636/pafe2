@@ -2,6 +2,9 @@
 body{
     background-color: #F0F3F4 !important;
 }
+.marquee{
+    text-decoration: none;
+  }
 h1{
     color: red;
 }

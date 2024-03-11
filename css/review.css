@@ -1,0 +1,46 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;/* This makes the container take up the full viewport height */
+    
+}
+
+.left-side, .right-side {
+    flex: 1; /* This ensures that both sides take up equal space */
+    /* padding: 30px; */
+}
+.left-side{
+    background-color: #f0f0f0;
+    width: 40%;
+  
+    
+} 
+.right-side{
+   background-color: #e0e0e0;
+   width: 40%;
+}
+.reviewimage{
+    height: auto;
+    width: 100%;
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .reviewimage{
+        width: auto;
+    }
+}
+
+/* Large devices (large desktops, 993px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .reviewimage{
+        width: auto;
+    }
+}
+
+

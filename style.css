@@ -4,9 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Happy+Monkey&family=Nabla&family=Noto+Color+Emoji&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Maps&family=Work+Sans:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 body{
-    background-color: #454545;
+    background-color: #ABB2B9 !important;
 }
-.topnav {
+ .navbar{
+  background-color: #333 !important;
+ }
+ .nav-link {
+
+  color: white !important;
+
+}
+.navbar-toggler {
+  background-color: white;
+
+}
+
+/* .topnav {
   background-color: #333;
   overflow: hidden;
   height: 3cm;
@@ -19,10 +32,10 @@ body{
   display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 /* Style the links inside the navigation bar */
-.topnav a {
+/* .topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -32,25 +45,25 @@ body{
   font-size: 30px;
   margin-top: 1.65%;
   
-}
+} */
 /* .topnav a:not(#bsingh_logo):hover {
   background-color: #808080;
   color: black;
 } */
-.topnav a:not(.logolink):hover,
+/* .topnav a:not(.logolink):hover,
 .topnav a:not(.logolink):focus {
     background-color: #808080;
     color: black;
 }
 .topnav a.active {
   background-color: #04AA6D;
-  color: white; }
+  color: white; } */
 
   #bsingh_logo{
     shape-image-threshold: inherit;
-    border-radius: 50%; 
+    border-radius: 60%; 
     background: linear-gradient(red,blue,green);
-    padding: 1.8px;
+    padding: 2px;
     object-fit: cover;
     width: 90px; /* Adjust the width as needed */
     height: 90px; /* Adjust the height as needed */

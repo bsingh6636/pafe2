@@ -12,14 +12,7 @@ h1{
     height: 25vh;
     width: 18vw;
 }
-#ObjectName{
-    margin-top:-6%;
-    font-family: cursive;
-    font-size: x-large;
-    font-weight: bolder;
-    font-variant-caps: petite-caps;
-   
-}
+
 
 .PriceContainer{
     margin-right: 2%;  
@@ -45,6 +38,18 @@ font-family: 'Salsa', cursive;
     width: 60px;
 }
 }
+
 #ObjectDetails{
     font-family: Bradley Hand, cursive;
+}
+
+#ObjectDetails ,#ObjectName {
+    color: black;
+    
+}
+#ObjectName{
+    margin-top:-6%;
+    font-weight: bolder;
+    font-variant-caps: petite-caps;
+   
 }
